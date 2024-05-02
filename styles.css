@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.logo {
+    position: relative;
+}
+
+.diamond {
+    position: relative;
+    width: 260px;
+    height: 400px;
+    background-color: #E72929;
+    transform: rotate(180deg);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    border-radius: 30px;
+}
+
+.line1 {
+    position: absolute;
+    top: 55px; 
+    left: 175px; 
+    width: 174px; 
+    height: 50px; 
+    background-color: #E72929; 
+    transform: rotate(90deg) skewY(-35deg); 
+    border-radius: 3px;
+    border: #E72929;
+}
+
+.line2 {
+    position: absolute;
+    bottom: 55px; 
+    left: 175px; 
+    width: 175px; 
+    height: 50px; 
+    background-color: #E72929; 
+    transform: rotate(89deg) skewY(35deg); 
+    border-radius: 3px;
+    border: #E72929;
+}
+
+.line3 {
+    position: absolute;
+    top: 67px; 
+    left: 265px;
+    width: 199px; 
+    height: 50px; 
+    background-color: #E72929; 
+    transform: rotate(90deg) skewY(-35deg); 
+    border-radius: 3px;
+    border: #E72929;
+}
+
+.line4 {
+    position: absolute;
+    bottom: 67px; 
+    left: 265px;
+    width: 201px; 
+    height: 50px; 
+    background-color: #E72929; 
+    transform: rotate(89deg) skewY(35deg); 
+    border-radius: 3px;
+    border: #E72929;
+}
+
+
